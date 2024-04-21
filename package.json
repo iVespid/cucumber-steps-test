@@ -1,8 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
-    "test": "npx cucumber-js --import dist/steps_local.js ",
-    "test2": "npx cucumber-js --config cucumber.js"
+    "test": "npx cucumber-js --config cucumber.js"
   },
   "dependencies": {
     "@cucumber/cucumber": "^10.4.0",
