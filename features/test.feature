@@ -2,5 +2,4 @@ Feature: Test
 
   Scenario: Local
     When I run ts original step
-    When I run ts compiled step recognized
-    When I run ts compiled step unrecognized
+    And I run step from npm package with text 'I\'m a paid software and I cannot recognize cucumber steps from NPM package when it\'s compiled from TS'
